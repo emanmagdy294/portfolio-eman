@@ -11,6 +11,7 @@ import { DeliverablesComponent } from './project/components/deliverables/deliver
 import { ExperienceComponent } from './project/components/experience/experience.component';
 import { FooterComponent } from './project/components/footer/footer.component';
 import { HomeComponent } from './project/components/home/home.component';
+import { CareerComponent } from './project/components/career/career.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { HomeComponent } from './project/components/home/home.component';
     DeliverablesComponent,
     ExperienceComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    CareerComponent
   ],
   imports: [
     BrowserModule,

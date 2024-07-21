@@ -1,0 +1,32 @@
+@import "../../../../assets/sass/variables";
+
+.skills {
+    background-color: #F1F1F1;
+    text-align: center;
+    margin: auto;
+}
+
+.nameSkills {
+    color: $secondColor;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.skills-group {
+    width: 75%;
+}
+
+.skills-another {
+    width: 75%;
+}
+
+@media (max-width:1000px) {
+
+    .skills-group {
+        width: 100%;
+    }
+
+    .skills-another {
+        width: 100%;
+    }
+}
