@@ -1,1 +1,55 @@
-Iam Eman Magdy
+<!-- start navBar -->
+<nav class="navbar navBg navbar-expand-lg py-1">
+    <div class="container text-center m-auto">
+        <div class="d-flex justify-content-between" style="direction: ltr; text-align: left;">
+            <a class="nav-link links-hover link" routerLink="htm">
+                <img src="./assets/images/header/eman logo.svg" class="logo ml-3 text-white"></a>
+        </div>
+        <ul class="navbar-nav m-auto mt-lg-0" [ngClass]="{'openMenu':isOpen}">
+            <label for="check" class="close text-dark">
+                <img src="./assets/images/main/close.png" alt="close">
+            </label>
+
+            <li><a class="nav-link links-hover" routerLinkActive="active" id="Home">Home
+                </a>
+            </li>
+            <li>
+                <a class="nav-link links-hover" routerLinkActive="active" id="About"> About me
+                </a>
+            </li>
+            <li>
+                <a class="nav-link links-hover" routerLinkActive="active" id="Skills">Skills
+                </a>
+            </li>
+            <li>
+                <a class="nav-link links-hover" routerLinkActive="active" id="Projects">
+                    Projects
+                </a>
+            </li>
+            <li>
+                <a class="nav-link links-hover" routerLinkActive="active" id="Experience">Experience
+                </a>
+            </li>
+
+            <li>
+                <a class="nav-link links-hover" routerLinkActive="active" id="Contacts">Contacts
+                </a>
+            </li>
+            <li>
+                <a class="nav-link links-hover" href="https://pdflink.to/0b6a99cc/" target="_blank">
+                    <span class="download py-2 px-3">Download CV</span>
+                </a>
+            </li>
+        </ul>
+        <!-- Button trigger modal -->
+        <input type="checkbox" id="check" (change)="open($event)">
+        <label for="check" class="checkBtn">
+            <img src="./assets/images/main/menu.png" alt="open">
+        </label>
+    </div>
+</nav>
+<!-- END navBar -->
+
+<!-- components -->
+<app-home></app-home>
+<app-about></app-about>

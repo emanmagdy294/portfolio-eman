@@ -1,0 +1,35 @@
+@import "../../../../assets/sass/variables";
+
+.bg-home {
+    background-color: $mainColor;
+    color: #fff;
+}
+
+.address {
+    font-size: 41px;
+    font-weight: 400;
+}
+
+.download {
+    border: solid 1px #fff;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .3s;
+    font-weight: 400
+}
+
+.download:hover {
+    background-color: #fff;
+    color: black;
+    transition: all .5s;
+}
+
+.download-links{
+    transition: all .5s;
+}
+
+.download-links:hover{
+    transform: scale(.9);
+    transition: all .5s;
+    box-shadow: -5px 2px 54px -9px rgba(241, 239, 239, 0.1);
+}
