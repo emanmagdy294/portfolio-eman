@@ -1,0 +1,24 @@
+@import "../../../../assets/sass/variables";
+
+.name {
+    color: $secondColor;
+    font-weight: bold;
+    font-size: 41px;
+}
+
+.address {
+    font-size: 31px;
+    font-weight: bold;
+    color: $mainColor;
+}
+
+.about-me {
+    color: #707070;
+    font-weight: bold;
+}
+
+@media (max-width:1000px) {
+    .about {
+        margin: auto;
+    }
+}
