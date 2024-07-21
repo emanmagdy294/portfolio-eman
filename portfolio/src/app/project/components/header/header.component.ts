@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
@@ -10,7 +10,7 @@ export class HeaderComponent {
   isOpen: boolean = false;
   hidden = false;
 
-  constructor(private _router: Router) {
+  constructor(private _router: Router, private elementRef: ElementRef) {
     //navbar routing 
     _router.events.subscribe((val) => this.isOpen = false)
   }
