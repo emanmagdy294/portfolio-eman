@@ -5,3 +5,46 @@
     font-family: "Inter";
     font-optical-sizing: auto;
 }
+
+.carousel-control-next,
+.carousel-control-prev {
+    position: absolute;
+    top: -20px;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border-radius: 50%;
+    text-align: center;
+    border: solid 1px $mainColor;
+    color: $mainColor;
+    transition: opacity .15s ease;
+    width: 40px;
+    height: 40px;
+}
+
+.carousel-control-prev {
+    left: 101% !important;
+}
+
+.carousel-control-next-icon {
+    background-image: url(./assets/images/main/next.svg) !important;
+    width: 10px !important;
+    transform: rotate(180deg);
+}
+
+.carousel-control-prev-icon {
+    background-image: url(./assets/images/main/next.svg) !important;
+    width: 10px !important;
+}
+
+.carousel-control-next:focus,
+.carousel-control-next:hover,
+.carousel-control-prev:focus,
+.carousel-control-prev:hover {
+    background-color: $mainColor;
+    opacity: .9;
+    color: #fff;
+}
