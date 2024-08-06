@@ -6,10 +6,11 @@
     font-optical-sizing: auto;
 }
 
+
 .carousel-control-next,
 .carousel-control-prev {
     position: absolute;
-    top: -20px;
+    top: 23px;
     bottom: 0;
     z-index: 1;
     display: flex;
@@ -23,6 +24,7 @@
     transition: opacity .15s ease;
     width: 40px;
     height: 40px;
+    right: 10px;
 }
 
 .carousel-control-prev {
