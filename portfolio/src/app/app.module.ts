@@ -12,6 +12,7 @@ import { ExperienceComponent } from './project/components/experience/experience.
 import { FooterComponent } from './project/components/footer/footer.component';
 import { HomeComponent } from './project/components/home/home.component';
 import { CareerComponent } from './project/components/career/career.component';
+import { CarouselModule } from 'ngx-owl-carousel-o';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { CareerComponent } from './project/components/career/career.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CarouselModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
