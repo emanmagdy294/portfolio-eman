@@ -6,6 +6,21 @@
     font-optical-sizing: auto;
 }
 
+.address {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.second-address {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.projects {
+    color: $secondColor;
+    font-weight: bold;
+    font-size: 30px;
+}
 
 .carousel-control-next,
 .carousel-control-prev {
@@ -25,28 +40,4 @@
     width: 40px;
     height: 40px;
     right: 10px;
-}
-
-.carousel-control-prev {
-    left: 101% !important;
-}
-
-.carousel-control-next-icon {
-    background-image: url(./assets/images/main/next.svg) !important;
-    width: 10px !important;
-    transform: rotate(180deg);
-}
-
-.carousel-control-prev-icon {
-    background-image: url(./assets/images/main/next.svg) !important;
-    width: 10px !important;
-}
-
-.carousel-control-next:focus,
-.carousel-control-next:hover,
-.carousel-control-prev:focus,
-.carousel-control-prev:hover {
-    background-color: $mainColor;
-    opacity: .9;
-    color: #fff;
 }

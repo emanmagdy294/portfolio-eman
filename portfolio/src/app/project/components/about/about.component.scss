@@ -20,5 +20,9 @@
 @media (max-width:1000px) {
     .about {
         margin: auto;
+
+        img {
+            width: 90% !important;
+        }
     }
 }
