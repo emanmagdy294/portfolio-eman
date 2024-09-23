@@ -1,10 +1,5 @@
 @import "../../../../assets/sass/variables";
 
-.projects {
-    color: $secondColor;
-    font-weight: bold;
-    font-size: 30px;
-}
 
 a {
     text-decoration: none;
@@ -24,11 +19,6 @@ a {
     border-radius: 20px;
     width: 400px;
     height: 400px;
-}
-
-
-.show-slider {
-    display: none;
 }
 
 /* projects */
@@ -68,7 +58,7 @@ a {
 }
 
 .project-name {
-    font-size: 30px;
+    font-size: 22px;
 }
 
 .commonClass {
@@ -84,6 +74,11 @@ a {
 }
 
 .view {
+    position: absolute;
+    bottom: 5px;
+    width: 90%;
+    margin: auto;
+    text-align: center;
     @extend .commonClass;
 }
 
@@ -91,12 +86,7 @@ a {
     width: 16px !important;
 }
 
-@media (max-width:1000px) {
-    .slider {
-        display: none;
-    }
-
-    .show-slider {
-        display: block;
-    }
+p {
+    margin: 4px !important;
+    padding: 4px !important;
 }
